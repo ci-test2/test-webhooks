@@ -1,0 +1,6 @@
+triggers:
+
+   - name: triggerwh1
+     type: trigger
+     version:
+       counter: 0
