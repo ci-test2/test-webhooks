@@ -2,7 +2,7 @@ resources:
   
   - name: wh-image1 
     type: image
-    integration: cock1-hub
+    integration: plv2-docker
     pointer:
       sourceName: "shippabledocker/pipelinev2"
     seed:
@@ -10,7 +10,7 @@ resources:
       
   - name: wh-image2 
     type: image
-    integration: cock1-hub
+    integration: plv2-docker
     pointer:
       sourceName: "shippabledocker/pipelinev2"
     seed:
