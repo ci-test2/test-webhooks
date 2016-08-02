@@ -4,4 +4,4 @@ jobs:
     type: manifest
     steps:
       - IN: wh-image1
-     # - IN: triggernotify1
+      - IN: triggerwh1
