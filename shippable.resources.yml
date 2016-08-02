@@ -1,0 +1,18 @@
+resources:
+  
+  - name: wh-image1 
+    type: image
+    integration: cock1-hub
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.1"
+      
+  - name: wh-image2 
+    type: image
+    integration: cock1-hub
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploy.2"
+      
