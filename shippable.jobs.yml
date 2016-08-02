@@ -1,0 +1,7 @@
+jobs:
+  
+  - name: wh-mani1
+    type: manifest
+    steps:
+      - IN: wh-image1
+     # - IN: triggernotify1
